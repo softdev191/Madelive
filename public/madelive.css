@@ -1,0 +1,102 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+.nav-wrapper{
+	margin-bottom: 0px;
+}
+/* label color */
+.input-field label {
+	color: #000 !important;
+}
+/* label focus color */
+.input-field input:focus + label,
+.input-field input:textarea + label, {
+	color: #000 !important;
+}
+/* label underline focus color */
+.input-field input:focus,
+.input-field textarea:focus {
+	border-bottom: 1px solid #000 !important;
+	box-shadow: 0 1px 0 0 #000 !important;
+}
+/* valid color */
+.input-field input.valid,
+.input-field textarea.valid {
+	border-bottom: 1px solid #000 !important;
+	box-shadow: 0 1px 0 0 #000 !important;
+}
+/* invalid color */
+.input-field input.invalid,
+.input-field textarea.invalid {
+	border-bottom: 1px solid #000 !important;
+	box-shadow: 0 1px 0 0 #000 !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #000 !important;
+}
+
+.logo{
+  width: 50px;
+  margin-top: 5px;
+  border: 1px solid #DDD;
+  border-radius: 30px;
+  background-color: #FFF;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size: 2rem;
+}
+
+.pad-0 { padding: 0px; }
+.pad-10{ padding: 10px 0px; }
+.pad-20{ padding: 20px 0px; }
+.pad-30{ padding: 30px 0px; }
+.pad-40{ padding: 40px 0px; }
+.pad-50{ padding: 50px 0px; }
+.pad-60{ padding: 60px 0px; }
+.pad-70{ padding: 70px 0px; }
+.pad-80{ padding: 80px 0px; }
+.pad-90{ padding: 90px 0px; }
+.pad-100{ padding: 100px 0px; }
+
+.margin-0 { margin: 0px !important; }
+
+.page-footer { margin-top: 100px; }
+
+.speech-bubble {
+	position: relative;
+	border-radius: .4em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #000; 
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+#dropDownSeries {
+	min-width: 500px !important;
+}
+.dropdown-content > div {
+	margin-bottom: 0px;
+}
+.dropdown-content > div > div {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.logo{ cursor: pointer; }
+.modal { width: 40% !important ; height: 40% !important ; }
+.footer-copyright a{
+	margin-right: 20px;
+}
